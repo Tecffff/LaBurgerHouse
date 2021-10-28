@@ -156,5 +156,45 @@ body {
     box-sizing: border-box;
 }
 
+#branco{
+    background-color: #fff;
+    background-image: url(/imagem/background.png);
+    margin: 4px solid red;
+    padding: 4px solid red;
+}
 
 
+
+#titulos{
+    margin: 4px solid red;
+    padding: 4px solid red;
+}
+
+#titulos.col-10 h1{
+    padding-top: 8%;
+    color: #e40000;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 58px;
+    margin-bottom: 3rem;
+    text-align: center;
+    text-shadow: -2px 4px #fff;
+}
+
+
+#branco.row{
+    background-color: #fff;
+   
+}
+
+#topo{
+    border: 1px solid red;
+}
+
+.card-body p{
+    text-transform: uppercase;
+}
+
+.row{
+    padding: 3vh;
+}
